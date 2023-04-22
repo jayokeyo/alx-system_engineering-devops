@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+# Script for creating ssh key pair named school
+# having paraphrase betty
 ssh-keygen -b 4096 -N betty -f school
