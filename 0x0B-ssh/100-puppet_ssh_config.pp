@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 # Ruby script to manage ssh_config file using Puppet
-file_line {'PasswordAuthentication': 
+file_line {'PasswordAuthentication no': 
       ensure => 'present',
-      path => '~/etc/ssh/ssh_config',
-	line => 'no'
+      path => '~/etc/ssh/ssh_config'
 }
-file_line {'IdentityFile': 
+file_line {'IdentityFile ~/.ssh/school':
       ensure => 'present', 
-      path => '~/etc/ssh/ssh_config',
-	line => '~/.ssh/school'
+      path => '~/etc/ssh/ssh_config'
 }
