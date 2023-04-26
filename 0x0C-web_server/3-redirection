@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Installs nginx on a web server.
+sudo apt-get -y update
+sudo apt-get -y install nginx
+redirect="Moved Permanently"
+echo "server {
+    listen 80;
+    listen [::]:80;
+    location /redirect_me {
+        return 301 '$redirect';
+    }
+}" | sudo tee /etc/nginx/sites-available/default
+sudo service nginx start
