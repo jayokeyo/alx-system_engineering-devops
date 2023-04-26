@@ -2,3 +2,4 @@
 # Run Apache on the holbertonschool/265-0 Docker container.
 echo "ServerName localhost" >> /etc/apache2/apache2.conf
 service apache2 start
+docker run -p 8080:8080 -d -it holbertonschool/265-0
