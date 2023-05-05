@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Script for connecting to <user>@<host> using
-# private key stored in <locatio>
-ssh -i ~/.ssh/school ubuntu@54.157.167.177
