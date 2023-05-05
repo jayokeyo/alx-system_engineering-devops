@@ -3,16 +3,16 @@
 
 echo "
 server {
-	listen 80 default_server;
-	listen [::]:80 default_server;
+    listen 80 default_server;
+    listen [::]:80 default_server;
 
-	root /usr/share/nginx/html;
-	index index.html index.htm;
-	server_name localhost;
+    root /usr/share/nginx/html;
+    index index.html index.htm;
+    server_name localhost;
 
-	location / {
-		try_files $uri $uri/ =404;
-	}
+    location / {
+        try_files $uri $uri/ =404;
+    }
 }" | sudo tee /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
 
 sudo service nginx start
