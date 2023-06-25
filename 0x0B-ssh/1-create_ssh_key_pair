@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Creates ssh key saved as school protected by phrase Betty
+ssh-keygen -b 4096 -t rsa -N betty -f school
