@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #uses a saved private key to ssh to server
 ssh -i ~/.ssh/school ubuntu@54.89.179.144
