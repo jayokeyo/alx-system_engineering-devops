@@ -1,5 +1,5 @@
 # Automates ssh_config configuration
-
+include stdlib
 file_line { 'PasswordAuthentication':
 ensure  => present,
 path    => 'etc/ssh/ssh_config',
