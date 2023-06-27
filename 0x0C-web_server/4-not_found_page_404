@@ -30,4 +30,4 @@ server {
         }
 }" > /etc/nginx/sites-enabled/default
 
-sudo service nginx start
+sudo service nginx restart
