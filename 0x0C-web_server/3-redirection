@@ -2,6 +2,11 @@
 # Configure your Nginx server so that /redirect_me is redirecting to another page.
 # redirection must be a 301 Moved Permanently 
 
+sudo apt update
+sudo apt install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo ufw enable
+sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
 sudo echo "
 server {
         listen 80 default_server;
@@ -21,4 +26,4 @@ server {
         }
 }" > /etc/nginx/sites-enabled/default
 
-sudo service nginx restart
+sudo service nginx start
