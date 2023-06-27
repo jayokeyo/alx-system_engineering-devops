@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Script to to get Apache to run on the container and to return
+# a page containing Hello Holberton when querying the root of it.
+
+sudo apt install apache2
+echo "ServerName 172.17.0.2" > /etc/apache2.conf
+sudo echo "Hello Helberton" > /var/www/html/index.html
+sudo sed "s/Listen 80/Listen 8080/" /etc/apache2/ports.conf
+sudo sed "s/<VirtualHost *: 80>/<VirtualHost *: 8080>" /etc/apache2/sites-enabled/000-default.conf
+sudo service apache2 start
