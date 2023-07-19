@@ -2,6 +2,7 @@
 # enable ufw and update rules to allow only ssh, https, and http
 
 sudo su
+ufw allow "Nginx HTTP"
 ufw allow "Nginx Full"
 ufw allow ssh
 ufw enable
