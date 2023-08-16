@@ -23,7 +23,7 @@ Most transactions are failing on the first reply and wait worker.
 call to monitor services.  
 * 29/06/2023 07:00 PM (UTC+2) - Incident reoccurs.  
 * 29/06/2023 07:10 PM (UTC+2) - Incident is escalated to 2nd line and 3rd line support engineers. OS standby engineer  
-as well as standby DBA are addes to the call as well.  
+as well as standby DBA are added to the call as well.  
 * 29/06/2023 10:20 PM (UTC+2) - OS standby engineer reports high read/write wait time as a possible cause of the outage.  
 * 29/06/2023 10:25 PM (UTC+2) - Standby DBA also reports high transport lag on the database confirming OS engineer's  
 assertion.  
