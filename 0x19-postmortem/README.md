@@ -1,5 +1,7 @@
 ## VDRC GSM Bundles drop P1 Incident - Root Cause Analysis
 
+![Alt text](https://1.bp.blogspot.com/--HagofIpbAI/XrQgY0I4EDI/AAAAAAAACpI/7VDfvu3dCJsHyyOPSdEBaCstmdGpliwVACLcBGAsYHQ/s1600/IMG_20200507_173620_940.JPG)
+
 ### Incident Summary
 On 29/06/2023 04:17 PM (UTC+2) a drop in successful GSM bundles purchases was detected on iNsight Payment Gateway  
 (a product of 4C Group of Companies (https://www.4cit.group/)). The major incident lasted 10hrs 13mins effectively  
