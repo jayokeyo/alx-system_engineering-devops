@@ -19,7 +19,7 @@ on the database was the root cause.
 * 29/06/2023 04:50 PM (UTC+2) - W.N completes preliminary investigations on iPG and reports his findings.  
 Most transactions are failing on the first reply and wait worker.  
 * 29/06/2023 05:00 PM (UTC+2) - A. M. and J. T. approve the request to restart iPG, including the OS and DBs.  
-* 29/06/2023 05:05 PM (UTC+2) - iPG is restarted and services and services are restored to normal. Team remains on  
+* 29/06/2023 05:05 PM (UTC+2) - iPG is restarted and services are restored to normal. Team remains on  
 call to monitor services.  
 * 29/06/2023 07:00 PM (UTC+2) - Incident reoccurs.  
 * 29/06/2023 07:10 PM (UTC+2) - Incident is escalated to 2nd line and 3rd line support engineers. OS standby engineer  
