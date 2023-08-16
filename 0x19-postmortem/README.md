@@ -13,5 +13,5 @@ thorough investigation it was established that very high read/write wait time as
 on the database was the root cause.  
   
 ### Timeline  
-*29/06/2023 04:17 PM (UTC+2) - Incident reported via mail by C.B.  
-*29/06/2023 04:20 PM (UTC+2) - MIM call started by SD and all standby engineers added to call.
+* 29/06/2023 04:17 PM (UTC+2) - Incident reported via mail by C.B.  
+* 29/06/2023 04:20 PM (UTC+2) - MIM call started by SD and all standby engineers added to call.
